@@ -68,5 +68,4 @@ python telegram_vacancy_parser.py
 
 _P.S. Всегда проверяйте соблюдение правил использования Telegram API и политик конкретных каналов._
 
-[LinkedIn ](https://www.linkedin.com/in/daniyar-bazilov/)
-[Telegram](https://t.me/danikgeek)
+[LinkedIn ](https://www.linkedin.com/in/daniyar-bazilov/) | [Telegram](https://t.me/danikgeek)
