@@ -37,7 +37,7 @@ pip install telethon pandas openpyxl
 3. **Настройте скрипт:**
 ```
 # Основные параметры для настройки
-api_id = 'ВАШ_API_ID'          # Ваш API ID
+api_id = ВАШ_API_ID          # Ваш API ID
 api_hash = 'ВАШ_API_HASH'      # Ваш API Hash
 channel = 'НАЗВАНИЕ_КАНАЛА'    # Например: 'datajobskz'
 start_date = datetime(2025, 1, 1)  # Начальная дата
@@ -46,10 +46,10 @@ end_date = datetime(2025, 12, 31)  # Конечная дата
 ### **▶️ Использование:**
 ```
 # Просто запустите скрипт:
-python telegram_vacancy_parser.py
+python telegram_vacancy_parser.py 
 
 # Результат:
-# 1. Авторизация в Telegram
+# 1. Авторизация в Telegram / не забываем что ввод пароля невидимый
 # 2. Парсинг сообщений из канала
 # 3. Фильтрация по дате
 # 4. Сохранение в vacancies_2025.xlsx
