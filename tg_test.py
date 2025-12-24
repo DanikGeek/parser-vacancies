@@ -3,9 +3,9 @@ from datetime import datetime
 import pandas as pd
 import asyncio
 
-api_id = 36219784
-api_hash = '009a420eb9c3b0ea0573d892d0863d85'
-channel = 'datajobskz'
+api_id = Тут ставим id без кавычек, например 56318784
+api_hash = 'Тут ставим свой хэш'
+channel = 'Тут имя канала, например datajobskz'
 
 start_date = datetime(2025, 1, 1)
 end_date = datetime(2025, 12, 31)
@@ -80,4 +80,5 @@ if __name__ == '__main__':
         import traceback
         traceback.print_exc()
     finally:
+
         input("\nНажмите Enter для выхода...")
